@@ -1,0 +1,310 @@
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #000
+}
+
+a {
+    color: #428bca;
+    text-decoration: none
+}
+
+img {
+    vertical-align: middle
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.hide {
+    display: none !important
+}
+
+.show {
+    display: block !important
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    min-width: 960px;
+    min-height: 600px;
+    background-color: #000
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 -38px 0
+}
+
+.footer-wrapper {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 38px
+}
+
+.content-wrapper {
+    width: 100%;
+    padding: 0 0 38px 0
+}
+
+.footer-wrapper {
+    min-width: 960px
+}
+
+.navbar {
+    font-size: 21px;
+    color: #2a2a2a;
+    padding-top: 6px;
+    margin-bottom: 0;
+    border-radius: 0;
+    min-height: 45px;
+    background-color: #212121;
+    background-color: rgba(26, 26, 26, 0.95)
+}
+
+.navbar a,
+.footer a {
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.navbar a:focus {
+    background-color: transparent !important;
+    outline: -webkit-focus-ring-color auto 5px
+}
+
+.navbar a:hover,
+.footer a:hover {
+    color: #fff
+}
+
+.navbar a:active,
+.footer a:active {
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.navbar .bold {
+    font-family: Myriad Set, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 21px
+}
+
+.navbar-left {
+    padding-left: 7px;
+    float: left
+}
+
+.navbar-left-title {
+    display: inline-block;
+    float: left;
+    cursor: default
+}
+
+.navbar-right {
+    padding-right: 10px;
+    min-width: 600px
+}
+
+.footer-link-separator {
+    margin-left: 5px
+}
+
+.navbar .nav-hr {
+    background-image: url(https://mapsconnect.apple.com/assets/images/misc/hr.png);
+    width: 5px;
+    height: 22px;
+    float: right;
+    margin-top: 4px
+}
+
+.navbar-top .navbar-left {
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.footer {
+    font-size: 13px;
+    padding-top: 10px;
+    color: #fff
+}
+
+.footer-link-separator {
+    border-right: 1px solid;
+    height: 10px;
+    margin-top: 4px;
+    margin-right: 10px
+}
+
+.footer > .nav > span {
+    float: right;
+    padding-right: 5px
+}
+
+.footer>.nav>span:first-child {
+    padding-right: 0
+}
+
+.apple_logo {
+    background-image: url(https://mapsconnect.apple.com/assets/images/logo/Apple_Logo.png);
+    width: 24px;
+    height: 24px;
+    float: right;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-top: -5px
+}
+
+.apple_logo-grey {
+    background-image: url(https://mapsconnect.apple.com/assets/images/logo/applelogo.png);
+    width: 20px;
+    height: 20px
+}
+
+.maps-title-img {
+    background-image: url(https://mapsconnect.apple.com/assets/images/maps/maps_title_short_white.png);
+    width: 81px;
+    height: 29px;
+    float: left;
+    margin-top: 1px
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-width: 960px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 10
+}
+
+.footer-wrapper {
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.footer-label .right-label {
+    margin-left: -3px
+}
+
+.navbar-right {
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.centered-content {
+    position: absolute;
+    width: 100%;
+    min-width: 960px;
+    top: 50%;
+    margin-top: -152px;
+    text-align: center
+}
+
+.maps-app {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13px
+}
+
+.maps-app-img {
+    background-image: url(https://mapsconnect.apple.com/assets/images/text/title_mapsconnect.png);
+    width: 366px;
+    height: 215px;
+    background-repeat: no-repeat
+}
+
+.thank-you {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 6px
+}
+
+.thank-you-note{
+    border-radius: 6px;
+    background: white;
+    padding: 20px; 
+    font-size: 19px;
+    box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.97) inset
+}
+
+.email-me {
+    color: white;
+    opacity: 0.7;
+}
+
+/* ------------------ BACKGROUND IMAGES ------------------ */
+.bg-initial,
+.bg-initial-0 {
+    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/001_ggb_low.jpg)
+}
+
+.bg-initial-1 {
+    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/002_cp_low.jpg)
+}
+
+.bg-initial-2 {
+    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/005_sh_low.jpg)
+}
+
+.bg-initial-3 {
+    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/006_pw_low.jpg)
+}
+
+.bg-initial-4 {
+    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/007_cls_low.jpg)
+}
+
+.bg-initial-5 {
+    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/008_shb_low.jpg)
+}
