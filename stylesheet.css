@@ -164,7 +164,7 @@ body {
 .maps-app {
     margin-left: auto;
     margin-right: auto;
-    margin-top: -13px
+    margin-top: -35px
 }
 
 .maps-app-img {
@@ -188,6 +188,11 @@ body {
     padding: 20px; 
     font-size: 19px;
     box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.97) inset
+}
+
+.thank-you-note > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .email-me {
