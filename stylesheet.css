@@ -164,20 +164,16 @@ body {
     color: #fff
 }
 
-.footer-link-separator {
+.pipe {
     border-right: 1px solid;
     height: 10px;
     margin-top: 4px;
     margin-right: 10px
 }
 
-.footer > .nav > span {
+.footer > .navbar-right > span {
     float: right;
     padding-right: 5px
-}
-
-.footer>.nav>span:first-child {
-    padding-right: 0
 }
 
 .apple_logo {
@@ -224,16 +220,12 @@ body {
 
 .wrapper {
     position: relative;
-    z-index: 10
+    z-index: 3
 }
 
 .footer-wrapper {
-    z-index: 10;
+    z-index: 3;
     background-color: rgba(0, 0, 0, 0.3)
-}
-
-.footer-label .right-label {
-    margin-left: -3px
 }
 
 .navbar-right {
@@ -284,27 +276,51 @@ body {
 }
 
 /* ------------------ BACKGROUND IMAGES ------------------ */
-.bg-initial,
-.bg-initial-0 {
+.bg-img,
+.bg-img-0 {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/001_ggb_low.jpg)
 }
 
-.bg-initial-1 {
+.bg-img-1 {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/002_cp_low.jpg)
 }
 
-.bg-initial-2 {
+.bg-img-2 {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/005_sh_low.jpg)
 }
 
-.bg-initial-3 {
+.bg-img-3 {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/006_pw_low.jpg)
 }
 
-.bg-initial-4 {
+.bg-img-4 {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/007_cls_low.jpg)
 }
 
-.bg-initial-5 {
+.bg-img-5 {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/008_shb_low.jpg)
 }
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-width: 960px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#destination-slideshow {
+  opacity: 1.0;                   
+}
+#destination-slideshow div {display:none;}
+#destination-slideshow #image1 {display:block;}
