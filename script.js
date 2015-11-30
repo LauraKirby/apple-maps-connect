@@ -1,10 +1,7 @@
 var slideElement = document.getElementById("destination-slideshow");
-var captionElement = document.getElementById("footer-img-caption");
 var duration = 2000; 
 var hide = 2000;
 var showtime = 6000; 
-var count = 0; 
-var captions = ["I love to learn and write code", "I volunteer for Women Who Code", "I am excited about Apple Maps"];
 
 var running = 0; 
 var elementCount = 1;
@@ -32,7 +29,6 @@ function fadeOut() {
 function fadeIn() {
   for (i = 0.1; i <= 1; i += 0.1) {
     setTimeout("setOpacity(" + i +")", i * duration);
-    console.log(captionElement)
   }
    if (elementCount == totalImages) {
     elementCount = 1;
