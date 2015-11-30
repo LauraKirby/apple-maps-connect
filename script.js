@@ -40,4 +40,4 @@ function fadeIn() {
     elementCount = elementCount+1;
    }
    setTimeout("fadeOut()", (duration + showtime));
-} 
+}
