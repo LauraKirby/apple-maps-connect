@@ -8,6 +8,16 @@ body {
 img {
     vertical-align: middle
 }
+a {
+    color: white;
+    text-decoration: none
+}
+
+a:hover,
+a:focus {
+    color: white;
+    text-decoration: underline
+}
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -210,13 +220,9 @@ body {
     background-image: url(https://mapsconnect.apple.com/assets/images/flyover/008_shb_low.jpg)
 }
 
-.bg-img-0 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/001_ggb_low.jpg)
-}
-
-
 #destination-slideshow {
   opacity: 1.0;                   
 }
+
 #destination-slideshow div {display:none;}
 #destination-slideshow #image1 {display:block;}
