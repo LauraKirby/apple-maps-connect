@@ -80,7 +80,6 @@ body {
 }
 
 .navbar .nav-hr {
-    background-image: url(https://mapsconnect.apple.com/assets/images/misc/hr.png);
     width: 5px;
     height: 22px;
     float: right;
@@ -110,7 +109,7 @@ body {
 }
 
 .maps-title-img {
-    background-image: url(https://mapsconnect.apple.com/assets/images/maps/maps_title_short_white.png);
+    background-image: url(./maps_title_short_white.png);
     width: 81px;
     height: 29px;
     float: left;
@@ -168,7 +167,7 @@ body {
 }
 
 .maps-app-img {
-    background-image: url(https://mapsconnect.apple.com/assets/images/text/title_mapsconnect.png);
+    background-image: url(./title_mapsconnect.png);
     width: 366px;
     height: 215px;
     background-repeat: no-repeat
@@ -202,27 +201,27 @@ body {
 
 .bg-img,
 .bg-img-0 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/001_ggb_low.jpg)
+    background-image: url(./001_ggb_low.jpg)
 }
 
 .bg-img-1 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/002_cp_low.jpg)
+    background-image: url(./002_cp_low.jpg)
 }
 
 .bg-img-2 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/005_sh_low.jpg)
+    background-image: url(./005_sh_low.jpg)
 }
 
 .bg-img-3 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/006_pw_low.jpg)
+    background-image: url(./006_pw_low.jpg)
 }
 
 .bg-img-4 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/007_cls_low.jpg)
+    background-image: url(./007_cls_low.jpg)
 }
 
 .bg-img-5 {
-    background-image: url(https://mapsconnect.apple.com/assets/images/flyover/008_shb_low.jpg)
+    background-image: url(./008_shb_low.jpg)
 }
 
 #destination-slideshow {
