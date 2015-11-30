@@ -109,7 +109,7 @@ body {
 }
 
 .maps-title-img {
-    background-image: url(./maps_title_short_white.png);
+    background-image: url(./images/maps_title_short_white.png);
     width: 81px;
     height: 29px;
     float: left;
@@ -167,7 +167,7 @@ body {
 }
 
 .maps-app-img {
-    background-image: url(./title_mapsconnect.png);
+    background-image: url(./images/title_mapsconnect.png);
     width: 366px;
     height: 215px;
     background-repeat: no-repeat
@@ -201,27 +201,27 @@ body {
 
 .bg-img,
 .bg-img-0 {
-    background-image: url(./001_ggb_low.jpg)
+    background-image: url(./images/001_ggb_low.jpg)
 }
 
 .bg-img-1 {
-    background-image: url(./002_cp_low.jpg)
+    background-image: url(./images/002_cp_low.jpg)
 }
 
 .bg-img-2 {
-    background-image: url(./005_sh_low.jpg)
+    background-image: url(./images/005_sh_low.jpg)
 }
 
 .bg-img-3 {
-    background-image: url(./006_pw_low.jpg)
+    background-image: url(./images/006_pw_low.jpg)
 }
 
 .bg-img-4 {
-    background-image: url(./007_cls_low.jpg)
+    background-image: url(./images/007_cls_low.jpg)
 }
 
 .bg-img-5 {
-    background-image: url(./008_shb_low.jpg)
+    background-image: url(./images/008_shb_low.jpg)
 }
 
 #destination-slideshow {
